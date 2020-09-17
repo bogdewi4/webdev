@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    margin: auto;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', Verdana, sans-serif;
+}
+
+.wrapper{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header__wrapper{
+    background-color: #000;
+}
+
+.header{
+    
+}
+
+.header__navigation{
+   
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    background-image: url(assets/img/logo.svg);
+    height: 45px;
+    width: 44px;
+    display: inline-block;
+}
+
