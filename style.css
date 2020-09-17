@@ -6,13 +6,36 @@
 
 html{
     font-size: 10px;
-    margin: auto;
 }
 
 body{
     font-size: 1.6rem;
     font-family: 'Roboto', Verdana, sans-serif;
 }
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    height: 46px;
+    width: 184px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    border: none;
+  }
+
+  .button_colored{
+    background-color: #00AFDB;
+  }
+ 
 
 .wrapper{
     max-width: 1600px;
@@ -21,20 +44,45 @@ body{
 
 .header__wrapper{
     background-color: #000;
-}
-
-.header{
-    
-}
-
-.header__navigation{
-   
+    padding: 25px 516px 25px 502px;
 }
 
 .navigation{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.navigation__link{
+color: #FFF;
+list-style: none;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+cursor: pointer;
+position: relative;
+}
+
+.navigation__link:first-child::after{
+    content: " ";
+    position: absolute;
+    height: 1px;
+    width: 38px;
+    background-color: #fff;
+    top: 20px;
+    right: 0px;
+
+    
+}
+
+.navigation__link:nth-child(2){
+    top: 1px;
+    right: 7px;
+}
+.navigation__link:nth-child(4){
+    top: 1px;
+    right: -8px;
 }
 
 .logo{
@@ -42,5 +90,99 @@ body{
     height: 45px;
     width: 44px;
     display: inline-block;
+    cursor: pointer; !important
 }
 
+
+
+.webdev__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 134px 416px 87px;
+    background-image: url(assets/img/bg-image-wrapper.jpg);
+    background-size: cover;
+    background-position-y: -95px;
+
+}
+
+.webdev__wrapper > p {
+    padding: 0 128px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 30px;
+}
+
+.webdev__wrapper > h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    letter-spacing: 4px;
+
+}
+.webdev__wrapper > button{
+    margin-bottom: 183px;
+}
+
+.webdev__socials {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.social{
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin: 0 15px;
+}
+
+.mail-icon{
+background-image: url(assets/img/mail_fff.svg);
+}
+
+.facebook-icon{
+background-image: url(assets/img/facebook_fff.svg);
+}
+
+.insta-icon{
+background-image: url(assets/img/insta_fff.svg);
+}
+
+.telegram-icon{
+    background-image: url(assets/img/telegram_fff.svg);
+}
+
+
+.layout-3-column {
+    display: flex;
+    justify-content: space-between;
+  }
+  .layout-3-column > * {
+    flex-basis: 30%;
+  }
+
+  .community__slider{
+    overflow: hidden;
+  }
+
+  .layout-2-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .layout-2-column > * {
+    flex-basis: 48%;
+  }
+
+  
