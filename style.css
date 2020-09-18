@@ -23,7 +23,8 @@ body{
 
 a{
     text-decoration: none;
-    transition: all 1s ease-out;
+    /* transition: all 1s ease-out; */
+    
 }
 
 .button{
@@ -71,6 +72,7 @@ line-height: 20px;
 cursor: pointer;
 position: relative;
 top:1px;
+
 
 }
 
