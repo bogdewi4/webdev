@@ -70,6 +70,7 @@ button:active, button:focus {
 
 .navigation__link, a {
   color: #fff;
+  opacity: 0.8;
   list-style: none;
   font-style: normal;
   font-weight: 400;
@@ -524,7 +525,7 @@ h4 {
 }
 .footer__links li a:hover {
   font-weight:500;
-l
+}
 
 .footer__links li:nth-child(2)::after {
   content: " ";
