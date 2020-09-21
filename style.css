@@ -91,11 +91,6 @@ button:active, button:focus {
   
 }
 
-.navigation__link a:hover {
-
-  font-weight: 500;
-}
-
 .navigation__link:nth-child(2) {
   top: 1px;
   right: 7px;
