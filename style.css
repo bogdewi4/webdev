@@ -84,6 +84,7 @@ button:active, button:focus {
 .navigation__link:not(:nth-child(3)):hover,
 .navigation__link_hover {
   border-bottom: 1px solid #fff;
+  font-weight:500;
 }
 
 .navigation__link a:hover {
