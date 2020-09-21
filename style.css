@@ -72,7 +72,7 @@ button:active, button:focus {
   color: #fff;
   list-style: none;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   cursor: pointer;
@@ -87,7 +87,8 @@ button:active, button:focus {
 }
 
 .navigation__link a:hover {
-  color: #00afdb;
+
+  font-weight: 500;
 }
 
 .navigation__link:nth-child(2) {
@@ -521,8 +522,8 @@ h4 {
   transition: color 0.3s ease;
 }
 .footer__links li a:hover {
-  color: #00afdb;
-}
+  font-weight:500;
+l
 
 .footer__links li:nth-child(2)::after {
   content: " ";
